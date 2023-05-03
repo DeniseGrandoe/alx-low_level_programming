@@ -1,5 +1,6 @@
 #include"lists.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * looped_listint_len - print andcount the number of unique nodes
  * in a looped listint_t linked list.
@@ -35,7 +36,7 @@ size_t looped_listint_len(const listint_t *head)
 			while (list1 != list2)
 			{
 				nodes++;
-				list1 = list2->next;
+				list1 = list1->next;
 			}
 
 			return (nodes);
