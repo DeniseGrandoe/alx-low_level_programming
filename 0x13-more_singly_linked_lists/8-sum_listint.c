@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * sum_listint -ifnction that returns the sum of all the data 
- * @head: point to head
+ * sum_listint - total the sum of all the data in a listint_t list
+ * @head:point to head
  *
- * Return: resulting sum
+ * Return: total sum
  */
 int sum_listint(listint_t *head)
 {
